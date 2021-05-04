@@ -1,0 +1,17 @@
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        Text("Hello from the other side \nI must've called a thousand times \nTo tell you I'm sorry for everything that I've done \nBut when I call, you never seem to be home \n\n\n\nHello from the outside\nAt least I can say that I've tried \nTo tell you I'm sorry for breaking your heart \nBut it don't matter, it clearly doesn't tear you apart anymore")
+            .font(.system(size: 24))
+            .multilineTextAlignment(.center)
+            .padding()
+        
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
